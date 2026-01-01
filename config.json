@@ -1,0 +1,56 @@
+{
+  "max_count": 1000,
+  "tokens": {
+    "USDC": {"decimals": 6, "min_amount": 1},
+    "USDC.e": {"decimals": 6, "min_amount": 1},
+    "OP": {"decimals": 18, "min_amount": 1},
+    "ZK": {"decimals": 18, "min_amount": 1}
+  },
+  "chains": {
+    "ethereum": {
+      "name": "Ethereum",
+      "rpc_url": "https://eth-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}",
+      "tokens": {
+        "USDC": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+      }
+    },
+    "polygon": {
+      "name": "Polygon",
+      "rpc_url": "https://polygon-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}",
+      "tokens": {
+        "USDC": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+        "USDC.e": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      }
+    },
+    "optimism": {
+      "name": "Optimism",
+      "rpc_url": "https://opt-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}",
+      "tokens": {
+        "USDC": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+        "OP": "0x4200000000000000000000000000000000000042"
+      }
+    },
+    "base": {
+      "name": "Base",
+      "rpc_url": "https://base-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}",
+      "tokens": {
+        "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+      }
+    },
+    "arbitrum": {
+      "name": "Arbitrum",
+      "rpc_url": "https://arb-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}",
+      "tokens": {
+        "USDC": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+      }
+    },
+    "zksync": {
+      "name": "zkSync",
+      "rpc_url": "https://zksync-mainnet.g.alchemy.com/v2/{ALCHEMY_KEY}",
+      "tokens": {
+        "USDC": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4",
+        "ZK": "0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E"
+      }
+    }
+  }
+}
